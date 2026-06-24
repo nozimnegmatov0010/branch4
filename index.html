@@ -8,7 +8,7 @@
 </head>
 <body class="max-w-[1200px] m-auto">
     <header class="flex justify-between items-center p-[20px]">
-        <div class="hidden lg:block flex gap-[20px]">
+        <div class="hidden lg:block lg:flex gap-[20px]">
             <p>О компании</p>
             <p>Доставка и оплата</p>
             <p>Гарантии</p>
@@ -20,13 +20,13 @@
             <p>Личный кабинет</p>
         </div>
     </header>
-    <div class="hidden lg:block flex justify-between items-center p-[20px]">
+    <div class="hidden lg:block lg:flex justify-between items-center p-[20px]">
         <img src="./src/images/logo (3).png" alt="">
         <img src="./src/images/search.png" alt="">
         <img src="./src/images/favorite'.png" alt="">
         <img src="./src/images/cart.png" alt="">
     </div>
-    <div class="hidden lg:block flex justify-between items-center p-[20px]">
+    <div class="hidden  lg:flex justify-between items-center p-[20px]">
         <div class="flex gap-[50px]">
             <p>Apple</p>
             <p>Huawei</p>
@@ -68,5 +68,201 @@
         </div>
 
     </section>
+    <h1 class="text-[35px] mt-[100px] mb-[30px]">Выберите бренд</h1>
+    <section class="lg:flex justify-between mt-[50px] ">
+        <div>
+            <img class="p-[20px] bg-[#F6F7FB] rounded-2xl" src="./src/images/img (5).png" alt="">
+            <br>
+            <p class="text-center">Apple</p>
+        </div>
+        <div>
+            <img class="p-[20px] bg-[#F6F7FB] rounded-2xl" src="./src/images/img (6).png" alt="">
+            <br>
+            <p class="text-center">Huawei</p>
+        </div>
+        <div>
+            <img class="p-[20px] bg-[#F6F7FB] rounded-2xl" src="./src/images/img (7).png" alt="">
+            <br>
+            <p class="text-center text-[#399A3A]">Xiaomi</p>
+        </div>
+        <div>
+            <img class="p-[20px] bg-[#F6F7FB] rounded-2xl" src="./src/images/img (6).png" alt="">
+            <br>
+            <p class="text-center">Samsung</p>
+        </div>
+    </section>
+        <h1 class="text-[35px] mt-[100px] mb-[30px]">Популярные товары</h1>
+
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    <!-- CARD -->
+    <div class="bg-white rounded-2xl shadow p-4 relative">
+
+      <!-- top badges -->
+      <div class="flex gap-2 mb-3">
+        <span class="bg-blue-500 text-white text-xs px-2 py-1 rounded-full">Новинка</span>
+        <span class="bg-green-500 text-white text-xs px-2 py-1 rounded-full">Скидка</span>
+        <span class="bg-red-500 text-white text-xs px-2 py-1 rounded-full">Популярное</span>
+      </div>
+
+      <!-- heart -->
+      <div class="absolute top-4 right-4 text-gray-400 cursor-pointer">
+        ♡
+      </div>
+
+      <!-- image placeholder -->
+      <div class="w-full h-40 bg-gray-200 rounded-xl mb-4 flex items-center justify-center text-gray-400">
+        <img src="./src/images/img (9).png" alt="">
+      </div>
+
+      <!-- title -->
+      <h2 class="text-sm font-semibold mb-2">
+        iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости Оригинал
+      </h2>
+
+      <!-- price block -->
+      <div class="text-sm space-y-1 mb-3">
+        <p>Розница: <span class="font-semibold">950 ₽</span></p>
+        <p>Оптом (от 5 штук): <span class="font-semibold">750 ₽</span></p>
+      </div>
+
+      <!-- stock -->
+      <p class="text-xs text-gray-500 mb-3">
+        В наличии: <span class="font-semibold">2356 шт.</span>
+      </p>
+
+      <!-- counter + button -->
+      <div class="flex items-center justify-between">
+        
+        <div class="flex items-center border rounded-lg overflow-hidden">
+          <button class="px-3 py-1 bg-gray-200">-</button>
+          <span class="px-3">96</span>
+          <button class="px-3 py-1 bg-gray-200">+</button>
+        </div>
+
+        <button class="border border-green-500 text-green-600 px-4 py-1 rounded-lg hover:bg-green-500 hover:text-white">
+          В корзину
+        </button>
+      </div>
+
+    </div>
+
+    <!-- COPY CARD (2) -->
+    <div class="bg-white rounded-2xl shadow p-4 relative">
+      <div class="flex gap-2 mb-3">
+        <span class="bg-red-500 text-white text-xs px-2 py-1 rounded-full">Популярное</span>
+      </div>
+
+      <div class="absolute top-4 right-4 text-gray-400">♡</div>
+
+      <div class="w-full h-40 bg-gray-200 rounded-xl mb-4">
+                <img src="./src/images/img (9).png" alt="">
+
+      </div>
+
+      <h2 class="text-sm font-semibold mb-2">
+        iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости Оригинал
+      </h2>
+
+      <div class="text-sm space-y-1 mb-3">
+        <p>Розница: <span class="font-semibold">950 ₽</span></p>
+        <p>Оптом (от 5 штук): <span class="font-semibold">750 ₽</span></p>
+      </div>
+
+      <p class="text-xs text-gray-500 mb-3">
+        В наличии: <span class="font-semibold">2356 шт.</span>
+      </p>
+
+      <div class="flex items-center justify-between">
+        <div class="flex items-center border rounded-lg overflow-hidden">
+          <button class="px-3 py-1 bg-gray-200">-</button>
+          <span class="px-3">96</span>
+          <button class="px-3 py-1 bg-gray-200">+</button>
+        </div>
+
+        <button class="border border-green-500 text-green-600 px-4 py-1 rounded-lg hover:bg-green-500 hover:text-white">
+          В корзину
+        </button>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="bg-white rounded-2xl shadow p-4 relative">
+      <div class="flex gap-2 mb-3">
+        <span class="bg-green-500 text-white text-xs px-2 py-1 rounded-full">Скидка</span>
+      </div>
+
+      <div class="absolute top-4 right-4 text-red-500">❤</div>
+
+      <div class="w-full h-40 bg-gray-200 rounded-xl mb-4">    
+            <img src="./src/images/img (9).png" alt="">
+</div>
+
+      <h2 class="text-sm font-semibold mb-2">
+        iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости Оригинал
+      </h2>
+
+      <div class="text-sm space-y-1 mb-3">
+        <p>Розница: <span class="line-through text-gray-400">950 ₽</span> <span class="font-semibold">850 ₽</span></p>
+        <p>Оптом (от 5 штук): <span class="font-semibold">750 ₽</span></p>
+      </div>
+
+      <p class="text-xs text-red-500 mb-3">Нет в наличии</p>
+
+      <div class="flex items-center justify-between">
+        <div class="flex items-center border rounded-lg overflow-hidden">
+          <button class="px-3 py-1 bg-gray-200">-</button>
+          <span class="px-3">96</span>
+          <button class="px-3 py-1 bg-gray-200">+</button>
+        </div>
+
+        <button class="border border-gray-300 text-gray-400 px-4 py-1 rounded-lg">
+          В корзину
+        </button>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="bg-white rounded-2xl shadow p-4 relative">
+      <div class="flex gap-2 mb-3">
+        <span class="bg-blue-500 text-white text-xs px-2 py-1 rounded-full">Новинка</span>
+      </div>
+
+      <div class="absolute top-4 right-4 text-gray-400">♡</div>
+
+      <div class="w-full h-40 bg-gray-200 rounded-xl mb-4">       
+         <img src="./src/images/img (9).png" alt="">
+</div>
+
+      <h2 class="text-sm font-semibold mb-2">
+        iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости Оригинал
+      </h2>
+
+      <div class="text-sm space-y-1 mb-3">
+        <p>Розница: <span class="font-semibold">950 ₽</span></p>
+        <p>Оптом (от 5 штук): <span class="font-semibold">750 ₽</span></p>
+      </div>
+
+      <p class="text-xs text-gray-500 mb-3">
+        В наличии: <span class="font-semibold">2356 шт.</span>
+      </p>
+
+      <div class="flex items-center justify-between">
+        <div class="flex items-center border rounded-lg overflow-hidden">
+          <button class="px-3 py-1 bg-gray-200">-</button>
+          <span class="px-3">96</span>
+          <button class="px-3 py-1 bg-gray-200">+</button>
+        </div>
+
+        <button class="border border-green-500 text-green-600 px-4 py-1 rounded-lg hover:bg-green-500 hover:text-white">
+          В корзину
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
 </body>
 </html>
